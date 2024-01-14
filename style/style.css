@@ -1,11 +1,12 @@
 body {
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 /* header section css */
-header{
+header {
     background-image: url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     height: 600px;
@@ -17,7 +18,7 @@ header{
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-    padding: 170px ;
+    padding: 170px;
     margin-bottom: 0;
 }
 
@@ -27,6 +28,7 @@ header{
     color: #FFFFFF;
     text-align: center;
     font-size: 72px;
+    font-family: Merriweather;
     font-weight: 900;
     line-height: 95px;
     padding-left: 300px;
@@ -34,5 +36,32 @@ header{
     margin-top: 10px;
 }
 
+/* percentage section style */
+.percentage {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
 
+.container-title {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+.container-info {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.new-year-pic{
+    margin: 0 500px;
+}
